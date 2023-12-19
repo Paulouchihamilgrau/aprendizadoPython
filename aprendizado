@@ -1,0 +1,51 @@
+# ola mundo em python
+
+print("Hello, World!")
+
+
+# operaçoes aritmeticas
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    sum_result = a + b
+    print(sum_result)
+    
+    diference_numbers = a - b
+    print(diference_numbers)
+    
+    product_number = a * b
+    print(product_number)
+
+# uso de if e else
+
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if n % 2 != 0:
+        print("Weird")
+    elif 2 <= n <= 5:
+        print("Not Weird")
+    elif 6 <= n <= 20:
+        print("Weird")
+    elif n > 20:
+        print("Not Weird")
+
+# divisao
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    
+    divisao = a // b
+    print(divisao)
+        
+    float_division = a / b
+    print(float_division) 
+
